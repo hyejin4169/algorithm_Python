@@ -7,7 +7,7 @@ def sol(num):
     # 수를 세기 위한 count 변수
 
     while num >= 0:
-    # 총 무게가 0kg보다 작거나 같을때까지 반복
+    # 총 무게가 0kg보다 크거나 같을때까지 반복
         if num % 5 == 0:
         # 5로 나눠 0이 되면
             count += int(num // 5)
