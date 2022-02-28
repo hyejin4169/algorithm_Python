@@ -28,7 +28,7 @@ def sol(num):
 
 if __name__ == '__main__':
 
-    with open('sugarDelivery.txt') as f:
+    with open('BOJ_2839.txt') as f:
         sys.stdin = f
         input = sys.stdin.readline
 
