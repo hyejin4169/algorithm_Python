@@ -7,7 +7,6 @@ def sol(num):
     for i in range(num):
         H, W, N = map(int, input().split())
         # H: 각 호텔의 층 수, W: 각 층의 방 수, N: 몇 번째 손님
-        # 입력값을
         floor = N % H
         # 몇 번째 손님을 호텔 층수로 나눈 나머지 값을 floor(층수)에 담는다
         room = N // H + 1
