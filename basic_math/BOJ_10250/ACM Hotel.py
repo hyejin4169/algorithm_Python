@@ -24,7 +24,6 @@ def sol(num):
 
 
 if __name__ == '__main__':
-
     with open('ACM Hotel.txt') as f:
         sys.stdin = f
         input = sys.stdin.readline
